@@ -66,6 +66,29 @@ public class string {
         System.out.println(str4);
         str4.append("OF DIT University");
         System.out.println(str4);
+
+        StringBuilder str5 = new StringBuilder();
+
+        System.out.println(str5.capacity());   //default capcity is 16
+        System.out.println(str5.length());
+
+        str5.append("HEllo");
+        
+        str5.append(" how are you and what you doing");
+        
+        System.out.println(str5);
+
+        /* length > default capacity
+        then = new capacity = old capacity *2+2
+        and if new capacity is < length then
+        length is new capcity
+        */
+
+        System.out.println(str5.capacity());
+        System.out.println(str5.length());
+
+        System.out.println(str5);
+
     }
 }
     
