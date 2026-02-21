@@ -1,0 +1,21 @@
+package recursion;
+
+//TC - 2^n
+
+public class multibranch {
+    static void multi(int x){
+        if(x<=0){
+            return;
+        }
+        System.err.println("pre call is " +x);   
+        //multi branch
+        multi(x-1);
+        System.err.println("B/W call " +x);
+        multi(x-2);
+        System.err.println("Post call " +x);
+    }
+
+    public static void main(String[] args){
+        multi(4);
+    }
+}
