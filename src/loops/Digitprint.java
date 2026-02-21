@@ -10,7 +10,7 @@ class lab{
         while(copy!=0){
             copy=copy/10;
             pow=pow*10;
-            System.err.println("Power"+pow);
+            System.out.println("Power"+pow);
         }
         pow=pow/10;
         System.out.println("Power is: "+pow);

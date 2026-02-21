@@ -7,12 +7,12 @@ public class multibranch {
         if(x<=0){
             return;
         }
-        System.err.println("pre call is " +x);   
+        System.out.println("pre call is " +x);   
         //multi branch
         multi(x-1);
-        System.err.println("B/W call " +x);
+        System.out.println("B/W call " +x);
         multi(x-2);
-        System.err.println("Post call " +x);
+        System.out.println("Post call " +x);
     }
 
     public static void main(String[] args){

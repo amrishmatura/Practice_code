@@ -9,7 +9,7 @@ class rotation{
         int pow=(int)Math.pow(10,r);
         int left = n/pow;
         int right = n%pow;
-        System.err.println(right+""+left);
+        System.out.println(right+""+left);
         //count digit
         int copy=n;
         int count = 0;

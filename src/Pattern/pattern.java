@@ -190,7 +190,7 @@ public class pattern {
         pattern4();
         System.out.println();
         pattern5();
-        System.err.println();
+        System.out.println();
         pattern6();
         System.out.println();
         pattern7();
